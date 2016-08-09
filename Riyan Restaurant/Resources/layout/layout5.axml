@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+  <LinearLayout
+      android:weightSum="1"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:gravity="center"
+      android:background="@android:color/background_light">
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="fill"
+        android:textSize="30dp"
+        android:text="Order Now"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textAllCaps="true" />
+  </LinearLayout>
+  <DigitalClock
+      android:layout_weight="2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="30dp"
+      android:gravity="center"
+      android:background="@android:color/black"
+      android:textColor="@android:color/background_light" />
+  <LinearLayout
+      android:background="@android:color/background_light"
+      android:weightSum="10"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1">
+    <TextView
+        android:textColor="@android:color/black"
+        android:text="Full Name"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center" />
+    <EditText
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000ff"
+        android:backgroundTintMode="src_over" />
+    <TextView
+        android:textColor="@android:color/black"
+        android:text="Phone Number"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center" />
+    <EditText
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000ff"
+        android:backgroundTintMode="src_over" />
+    <TextView
+        android:textColor="@android:color/black"
+        android:text="Menu Item Number"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center" />
+    <EditText
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="src_atop"
+        android:backgroundTint="#000000ff"
+        android:text="E.g. Item 1 - Fish Fillet / Fill in 1,1 for 2 X Fish Fillet" />
+    <TextView
+        android:textColor="@android:color/black"
+        android:text="Delivery Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:gravity="center" />
+    <EditText
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000ff"
+        android:backgroundTintMode="src_atop" />
+    <TextView
+        android:text="Delivery Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+    <EditText
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000ff"
+        android:backgroundTintMode="src_atop" />
+  </LinearLayout>
+  <Button
+      android:layout_weight="1"
+      android:text="Confirm &amp; Pay"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20dp"
+      android:textColor="@android:color/background_light"
+      android:background="@android:color/black"
+      android:id="@+id/ConfirmButton" />
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.25"
+        android:weightSum="1"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="About Us"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textviewlabel"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@android:color/background_light"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+    <ImageView
+        android:layout_weight="1"
+        android:src="@drawable/r_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+    <LinearLayout
+        android:background="@android:color/background_light"
+        android:weightSum="8"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Cardholder's Name"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center" />
+        <EditText
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000ff"
+            android:backgroundTintMode="src_over" />
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Card Number"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center" />
+        <EditText
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000ff"
+            android:backgroundTintMode="src_over" />
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="Expiry Date"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center" />
+        <EditText
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTintMode="src_atop"
+            android:backgroundTint="#000000ff" />
+        <TextView
+            android:textColor="@android:color/black"
+            android:text="CCV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:gravity="center" />
+        <EditText
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000ff"
+            android:backgroundTintMode="src_atop" />
+    </LinearLayout>
+    <Button
+        android:layout_weight="0.75"
+        android:text="Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/black"
+        android:id="@+id/PayButton" />
+</LinearLayout>

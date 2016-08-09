@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Menu"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:background="@android:color/background_light" />
+    <Gallery
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/galleryview"
+        android:background="@android:color/background_dark" />
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="25dp"
+        android:text="1. Cod Fish Fillet             $10.80              2. Fish and Chips            $  8.60                     3. Beef Lasagna              $11.20                4. Grilled Salomon          $15.00                      5. Spinach Lasagna        $12.30                6. Bangers and Mash     $18.00     "
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light" />
+</LinearLayout>

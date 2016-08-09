@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_weight="0.25"
+      android:weightSum="1"
+      android:layout_width="match_parent">
+    <TextView
+        android:text="Contact Us"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/textviewlabel"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/background_dark" />
+  </LinearLayout>
+  <ImageView
+      android:layout_weight="0.5"
+      android:src="@drawable/r_logo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/imageView1" />
+  <TextView
+      android:layout_weight="0.25"
+      android:text="Opening Hours : 9.00 a.m - 10.00 p.m         Address : 10, Main Street, Melbourne, 3000         Phone Number : 0380336789                   Email : rrservices_10@gmail.com           Twitter : @rrsdelight_10                 Facebook : rrsdelight_10"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView1"
+      android:textSize="20dp"
+      android:background="@android:color/black"
+      android:textColor="@android:color/background_light" />
+  <EditText
+      android:textColor="@android:color/black"
+      android:layout_weight="1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="#ffffffff"
+      android:backgroundTintMode="src_atop"
+      android:background="@android:color/background_light" />
+  <Button
+      android:layout_weight="0.5"
+      android:text="Submit Feedback"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20dp"
+      android:textColor="@android:color/background_light"
+      android:background="@android:color/black"
+      android:id="@+id/FeedbackButton" />
+</LinearLayout>
