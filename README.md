@@ -15,9 +15,17 @@ Price of the menu
 
 What function of android can be used? 
 Using buttons to navigate to pages
-Multitasking and Database
+Multitasking a
 Navigation after ordering the menu 
 Using multi-touch 
 Using internal memory
+image viewing 
+booking 
 
+#Features
+Menu
+contact
+order 
+About  Us
+order 
 
